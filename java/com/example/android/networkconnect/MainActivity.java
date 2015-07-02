@@ -64,7 +64,7 @@ public class MainActivity extends FragmentActivity {
         introFragment.getTextView().setTextSize(TypedValue.COMPLEX_UNIT_DIP, 16.0f);
 
         // Initialize the logging framework.
-        initializeLogging();
+        // initializeLogging();
     }
 
     @Override
