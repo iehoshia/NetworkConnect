@@ -64,7 +64,7 @@ public class MainActivity extends FragmentActivity {
         introFragment.getTextView().setTextSize(TypedValue.COMPLEX_UNIT_DIP, 16.0f);
 
         // Initialize the logging framework.
-        // initializeLogging();
+        initializeLogging();
     }
 
     @Override
@@ -79,7 +79,7 @@ public class MainActivity extends FragmentActivity {
             // When the user clicks FETCH, fetch the first 500 characters of
             // raw HTML from www.google.com.
             case R.id.fetch_action:
-                new DownloadTask().execute("http://www.google.com");
+                new DownloadTask().execute("http://www.apixela.net/android/json.html");
                 return true;
             // Clear the log view fragment.
             case R.id.clear_action:
